@@ -4,5 +4,10 @@ body {
 
 .wrapper {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: repeat(2, [col] 50% );
+}
+
+.page-2 {
+    display: grid;
 }
